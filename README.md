@@ -10,7 +10,9 @@ Das Ziel ist, eine einfache To-Do-Liste zu entwickeln:
 - **Frontend:** Eine Blazor-Anwendung, die über eine ansprechende Benutzeroberfläche mit der API kommuniziert.
 
 Dieses Projekt ist überschaubar, erweitert aber schrittweise das Verständnis für die einzelnen Technologien.
- 
+
+---
+
 ### Tag 1 – Einführung & Setup
 #### Was du heute machst:
 - Du installierst alles, was du brauchst.
@@ -32,7 +34,9 @@ Dieses Projekt ist überschaubar, erweitert aber schrittweise das Verständnis f
 #### Hilfe:
    - [Get started Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/quickstart-ide-orientation?view=vs-2022)
    - [Get started C#](https://learn.microsoft.com/de-de/training/paths/get-started-c-sharp-part-1/)
-  
+
+---
+
 ### Tag 2 – Grundlagen der Programmierung in C#
 #### Ziele:
 - Verständnis grundlegender Programmierkonzepte in C#
@@ -48,6 +52,9 @@ Dieses Projekt ist überschaubar, erweitert aber schrittweise das Verständnis f
     - Einführung in Klassen, Objekte, Vererbung und Interfaces.
 
    - Erweiter die `TodoItem`-Klasse im Shared Projekt, damit sie eine numerische Id hat, einen Titel und einen Wert, der anzeigt, ob das Element bereits abgeschlossen ist.
+
+---
+
 ### Tag 3 – Einführung in Blazor
 #### Ziele:
 - Verständnis des Konzepts von Blazor
@@ -58,7 +65,9 @@ Dieses Projekt ist überschaubar, erweitert aber schrittweise das Verständnis f
 - Checkboxen zum abschließen
 - Ansicht zum bearbeiten
 - CSS-Styling
-  
+
+---
+
 ### Tag 4 – Einführung in .NET Core Web API
 #### Ziele:
 - Grundverständnis für den Aufbau einer Web API mit .NET Core
@@ -67,7 +76,9 @@ Dieses Projekt ist überschaubar, erweitert aber schrittweise das Verständnis f
 - Endpunkt zum Anzeigen einer Todo-Liste erweitern
 - Endpunkt zum Anzeigen eines einzelnen Elementes erweitern
 - Endpunkte zum Hinzufügen, Bearbeiten, Löschen hinzufügen
-  
+
+---
+
 ### Tag 5 – Integration: API & Blazor Frontend
 #### Ziele:
 - Verknüpfen der Blazor-Oberfläche mit der Web API
@@ -75,6 +86,8 @@ Dieses Projekt ist überschaubar, erweitert aber schrittweise das Verständnis f
 #### Schritte:
 - Erarbeite, wie man HTTP-Anfragen (GET, POST, PUT, DELETE) aus Blazor heraus durchführt.
 - Verwende die HttpClient-Klasse in Blazor, um mit deiner Web API zu kommunizieren.
+
+---
 
 ### Tag 6 – Datenbank und Persistenz mit SQL
 #### Ziele:
@@ -98,6 +111,8 @@ public async Task<ActionResult<IEnumerable<TodoItem>>> Get() {
 }
 ...
 ```
+
+---
 
 ### Tag 7 – Abschlusstest, Verfeinerung & Dokumentation
 #### Ziele:
