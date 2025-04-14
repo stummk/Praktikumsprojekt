@@ -1,0 +1,28 @@
+﻿@page "/"
+
+<PageTitle>Meine Aufgaben</PageTitle>
+
+<h3>Meine Aufgaben</h3>
+
+@if (todos == null)
+{
+    <p>Lade Daten...</p>
+}
+else
+{
+    @*  TODO: Zeige hier alle Aufgaben an
+        TODO: Style die Liste mit css Klassen und erweitere/ füge css Klassen in der wwwroot/ css / app.css hinzu
+        TODO: Füge einen Button zum hinzufügen von neuen ELementen hinzu
+        TODO: Füge einen Button hinzu zum Löschen eines Elementes
+        TODO: Füge eine Möglichkeit hinzu Aufgaben als abgeschlossen zu markieren
+        TODO: Füge eine Komponente hinzu, wo eine Einzelne Aufgabe bearbeitet werden kann
+      *@
+
+
+    <ul>
+        @foreach (var item in todos)
+        {
+            @* <li>@item.Title (@(item.IsCompleted ? "Erledigt" : "Offen"))</li> *@
+        }
+    </ul>
+}
